@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Valtech UI exercise</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="assets/css/test.css" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/vendor/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="toggle-sidebar">Sidebar</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main" class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-12 col-md-9">
+          <p class="float-right d-md-none">
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <p>About us page</p>
+            </div>
+          </div><!--/row-->
+        </div>
+
+        <div class="col-6 col-md-3 sidebar-offcanvas" id="sidebar">
+          <aside>
+            <h2>Recent Posts</h2>
+            <br />
+            <h3>Heading 1</h3>
+            <p>Description...</p>
+
+            <h3>Heading 2</h3>
+            <p>Description...</p>
+          </aside>
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+    </main><!--/.container-->
+
+    <footer>
+      <p><a href="https://www.linkedin.com/in/shakir-khan-98890112/" target="_blank">About me</a> &copy; 2017</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/test.js"></script>
+  </body>
+</html>
